@@ -1,0 +1,24 @@
+# dot files
+Projects/MDK-ARM/.vscode/launch.json
+Projects/MDK-ARM/.settings
+Projects/MDK-ARM/.eide/log
+Projects/MDK-ARM/.eide.usr.ctx.json
+
+# project out
+/build
+/bin
+/obj
+/out
+
+# eide template
+*.ept
+*.eide-template
+
+Projects/MDK-ARM/.cmsis/**
+Drivers/STM32F1xx_HAL_Driver/Src/**
+Drivers/STM32F1xx_HAL_Driver/Inc/**
+Output/**
+Drivers/CMSIS/Include/**
+Drivers/CMSIS/Device/**
+
+Middlewares/readme.txt

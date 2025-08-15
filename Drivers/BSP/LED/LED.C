@@ -1,0 +1,19 @@
+#include "LED.H"
+
+void LED_Init(void)
+{
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+    __HAL_RCC_GPIOE_CLK_ENABLE();
+    GPIO_InitTypeDef LED;
+
+    LED.Mode = GPIO_MODE_OUTPUT_PP;
+    LED.Pin = GPIO_PIN_5;
+    LED.Pull = GPIO_PULLUP;
+    LED.Speed = GPIO_SPEED_FREQ_HIGH;
+
+    HAL_GPIO_Init(GPIOB,&LED);
+    HAL_GPIO_Init(GPIOE,&LED);
+    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_SET);
+
+}

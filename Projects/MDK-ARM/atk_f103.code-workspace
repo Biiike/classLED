@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "cortex-debug.variableUseNaturalFormat": true,
+        "files.associations": {
+            "LED.C": "cpp",
+            "stm32f1xx.h": "c",
+            "watchdog.h": "c"
+        }
+    },
+    "extensions": {}
+}
