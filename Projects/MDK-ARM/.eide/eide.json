@@ -51,460 +51,184 @@
             "folders": []
           },
           {
-            "name": "BSP",
-            "files": [],
-            "folders": [
-              {
-                "name": "KEY",
-                "files": [
-                  {
-                    "path": "../../Drivers/BSP/KEY/KEY.c"
-                  },
-                  {
-                    "path": "../../Drivers/BSP/KEY/KEY.h"
-                  }
-                ],
-                "folders": []
-              },
-              {
-                "name": "LED",
-                "files": [
-                  {
-                    "path": "../../Drivers/BSP/LED/LED.C"
-                  },
-                  {
-                    "path": "../../Drivers/BSP/LED/LED.H"
-                  }
-                ],
-                "folders": []
-              },
-              {
-                "name": "UART",
-                "files": [
-                  {
-                    "path": "../../Drivers/BSP/UART/uart.c"
-                  },
-                  {
-                    "path": "../../Drivers/BSP/UART/uart.h"
-                  }
-                ],
-                "folders": []
-              },
-              {
-                "name": "WATCHDOG",
-                "files": [
-                  {
-                    "path": "../../Drivers/BSP/WATCHDOG/WATCHDOG.c"
-                  },
-                  {
-                    "path": "../../Drivers/BSP/WATCHDOG/WATCHDOG.h"
-                  }
-                ],
-                "folders": []
-              }
-            ]
-          },
-          {
             "name": "STM32F1xx_HAL_Driver",
-            "files": [],
-            "folders": [
+            "files": [
               {
-                "name": "Inc",
-                "files": [
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32_assert_template.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cec.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_conf_template.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_crc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_eth.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_hcd.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2s.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_irda.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_mmc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nand.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nor.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pccard.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_smartcard.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sram.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_usart.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_wwdg.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_crc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dac.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_fsmc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rtc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_wwdg.h"
-                  }
-                ],
-                "folders": []
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
               },
               {
-                "name": "Src",
-                "files": [
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_msp_template.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_rtc_alarm_template.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_tim_template.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c"
-                  },
-                  {
-                    "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c"
-                  }
-                ],
-                "folders": []
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c"
+              },
+              {
+                "path": "../../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c"
               }
-            ]
+            ],
+            "folders": []
           }
         ]
       },
@@ -513,6 +237,42 @@
         "files": [
           {
             "path": "../../readme.txt"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BSP",
+        "files": [
+          {
+            "path": "../../Drivers/BSP/LED.C"
+          },
+          {
+            "path": "../../Drivers/BSP/LED.H"
+          },
+          {
+            "path": "../../Drivers/BSP/WATCHDOG.c"
+          },
+          {
+            "path": "../../Drivers/BSP/WATCHDOG.h"
+          },
+          {
+            "path": "../../Drivers/BSP/KEY.c"
+          },
+          {
+            "path": "../../Drivers/BSP/KEY.h"
+          },
+          {
+            "path": "../../Drivers/BSP/TIMER.c"
+          },
+          {
+            "path": "../../Drivers/BSP/TIMER.h"
+          },
+          {
+            "path": "../../Drivers/BSP/UART.c"
+          },
+          {
+            "path": "../../Drivers/BSP/UART.h"
           }
         ],
         "folders": []
@@ -527,41 +287,117 @@
   },
   "targets": {
     "Template": {
-      "excludeList": [
-        "<virtual_root>/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_msp_template.c",
-        "<virtual_root>/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_rtc_alarm_template.c",
-        "<virtual_root>/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_tim_template.c"
-      ],
+      "excludeList": [],
       "toolchain": "AC5",
       "compileConfig": {
         "cpuType": "Cortex-M3",
         "archExtensions": "",
         "floatingPointHardware": "none",
         "useCustomScatterFile": false,
-        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "scatterFilePath": "",
         "storageLayout": {
           "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
             {
               "tag": "IRAM",
               "id": 1,
               "mem": {
                 "startAddr": "0x20000000",
-                "size": "0x5000"
+                "size": "0x10000"
               },
               "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
               "noInit": false
             }
           ],
           "ROM": [
             {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
               "tag": "IROM",
               "id": 1,
               "mem": {
-                "startAddr": "0x08000000",
-                "size": "0x10000"
+                "startAddr": "0x8000000",
+                "size": "0x80000"
               },
               "isChecked": true,
               "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
             }
           ]
         },
@@ -595,15 +431,12 @@
           "../../Drivers/CMSIS/Include",
           "../../Drivers",
           "../../Users",
-          ".cmsis/include",
-          "RTE/_Template",
-          "../../Drivers/BSP/KEY",
-          "../../Drivers/BSP/LED",
           "../../Drivers/SYSTEM/sys",
+          "../../Drivers/BSP",
           "../../Drivers/SYSTEM/delay",
-          "../../Drivers/BSP/UART",
-          "../../Drivers/BSP/WATCHDOG",
-          "../../Drivers/STM32F1xx_HAL_Driver/Src"
+          "../../Drivers/SYSTEM/usart",
+          ".cmsis/include",
+          "RTE/_Template"
         ],
         "libList": [],
         "defineList": [
@@ -637,92 +470,6 @@
             "xo-base": "",
             "ro-base": "0x08000000",
             "rw-base": "0x20000000"
-          }
-        },
-        "GCC": {
-          "version": 5,
-          "beforeBuildTasks": [],
-          "afterBuildTasks": [],
-          "global": {
-            "$float-abi-type": "hard",
-            "output-debug-info": "enable",
-            "misc-control": "--specs=nosys.specs --specs=nano.specs"
-          },
-          "c/cpp-compiler": {
-            "language-c": "c11",
-            "language-cpp": "c++11",
-            "optimization": "level-debug",
-            "warnings": "all-warnings",
-            "one-elf-section-per-function": true,
-            "one-elf-section-per-data": true,
-            "C_FLAGS": "",
-            "CXX_FLAGS": ""
-          },
-          "asm-compiler": {
-            "ASM_FLAGS": ""
-          },
-          "linker": {
-            "$outputTaskExcludes": [
-              ".bin"
-            ],
-            "output-format": "elf",
-            "remove-unused-input-sections": true,
-            "LD_FLAGS": "",
-            "LIB_FLAGS": "-lm"
-          }
-        },
-        "IAR_ARM": {
-          "version": 1,
-          "beforeBuildTasks": [],
-          "afterBuildTasks": [],
-          "global": {
-            "endian-mode": "little",
-            "runtime-lib": "normal",
-            "printf-formatter": "auto",
-            "scanf-formatter": "auto",
-            "output-debug-info": "enable"
-          },
-          "c/cpp-compiler": {
-            "optimization": "no",
-            "destroy-cpp-static-object": true
-          },
-          "asm-compiler": {
-            "case-sensitive-user-symbols": true
-          },
-          "linker": {
-            "$outputTaskExcludes": [
-              ".bin"
-            ],
-            "output-format": "elf",
-            "auto-search-runtime-lib": true,
-            "perform-cpp-virtual-func-elimination": "enable",
-            "config-defines": []
-          }
-        },
-        "AC6": {
-          "version": 3,
-          "beforeBuildTasks": [],
-          "afterBuildTasks": [],
-          "global": {
-            "use-microLIB": false,
-            "output-debug-info": "enable"
-          },
-          "c/cpp-compiler": {
-            "optimization": "level-0",
-            "language-c": "c99",
-            "language-cpp": "c++11",
-            "link-time-optimization": false
-          },
-          "asm-compiler": {
-            "$use": "asm-auto",
-            "misc-controls": ""
-          },
-          "linker": {
-            "$outputTaskExcludes": [
-              ".bin"
-            ],
-            "output-format": "elf",
-            "misc-controls": "--diag_suppress=L6329"
           }
         }
       }

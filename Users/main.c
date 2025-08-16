@@ -1,19 +1,19 @@
 /**
  ******************************************************************************
  * @file     main.c
- * @author   ÕıµãÔ­×ÓÍÅ¶Ó(ALIENTEK)
+ * @author   æ­£ç‚¹åŸå­å›¢é˜Ÿ(ALIENTEK)
  * @version  V1.0
  * @date     2020-08-20
- * @brief    ĞÂ½¨¹¤³ÌÊµÑé-HAL¿â°æ±¾ ÊµÑé
- * @license  Copyright (c) 2020-2032, ¹ãÖİÊĞĞÇÒíµç×Ó¿Æ¼¼ÓĞÏŞ¹«Ë¾
+ * @brief    æ–°å»ºå·¥ç¨‹å®éªŒ-HALåº“ç‰ˆæœ¬ å®éªŒ
+ * @license  Copyright (c) 2020-2032, å¹¿å·å¸‚æ˜Ÿç¿¼ç”µå­ç§‘æŠ€æœ‰é™å…¬å¸
  ******************************************************************************
  * @attention
  *
- * ÊµÑéÆ½Ì¨:ÕıµãÔ­×Ó STM32F103 ¿ª·¢°å
- * ÔÚÏßÊÓÆµ:www.yuanzige.com
- * ¼¼ÊõÂÛÌ³:www.openedv.com
- * ¹«Ë¾ÍøÖ·:www.alientek.com
- * ¹ºÂòµØÖ·:openedv.taobao.com
+ * å®éªŒå¹³å°:æ­£ç‚¹åŸå­ STM32F103 å¼€å‘æ¿
+ * åœ¨çº¿è§†é¢‘:www.yuanzige.com
+ * æŠ€æœ¯è®ºå›:www.openedv.com
+ * å…¬å¸ç½‘å€:www.alientek.com
+ * è´­ä¹°åœ°å€:openedv.taobao.com
  ******************************************************************************
  */
 
@@ -24,28 +24,28 @@
 #include "KEY.h"
 #include "uart.h"
 #include "WATCHDOG.h"
-uint16_t cnt;
-uint16_t b;
+#include "TIMER.h"
 
 uint8_t Key_val, Key_down, Key_old;
 
 int main(void)
 {
 
-    HAL_Init();                         /* ³õÊ¼»¯HAL¿â */
-    sys_stm32_clock_init(RCC_PLL_MUL9); /* ÉèÖÃÊ±ÖÓ, 72Mhz */
-    delay_init(72);                     /* ÑÓÊ±³õÊ¼»¯ */
+    HAL_Init();                         /* åˆå§‹åŒ–HALåº“ */
+    sys_stm32_clock_init(RCC_PLL_MUL9); /* è®¾ç½®æ—¶é’Ÿ, 72Mhz */
+    delay_init(72);                     /* å»¶æ—¶åˆå§‹åŒ– */
     LED_Init();
     UART_INIT(115200);
+    Timer6_Init();
 
     if (__HAL_RCC_GET_FLAG(RCC_FLAG_WWDGRST) != RESET)
     {
-        printf("¿´ÃÅ¹·¸´Î»\n");
+        printf("çœ‹é—¨ç‹—å¤ä½\n");
         __HAL_RCC_CLEAR_RESET_FLAGS();
     }
     else
     {
-        printf("ÏµÍ³¸´Î»\n");
+        printf("ç³»ç»Ÿå¤ä½\n");
     }
    
     //Wwdg_Init();
@@ -60,7 +60,7 @@ int main(void)
         //     HAL_UART_Transmit(&UART1,&G_RX_BUFFER,1,1000);
         //     while(__HAL_UART_GET_FLAG(&UART1,UART_FLAG_TC) != 1);
         //     G_RX_FLAG = 0;
-        //     printf("ÄãºÃ\n");
+        //     printf("ä½ å¥½\n");
         // }
 
     }
